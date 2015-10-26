@@ -38,7 +38,7 @@ By default the scss file is providing the entire toolkit, If you want a granular
 
 ### .eot, .ttf, .woff and .woff2 fonts
 
-The font files are availables into the [node_modules/scoville-font/fonts/](https://github.com/petaldevelopment/scoville-font/tree/master/fonts) directory, you just need to refer them into your favorite asset pipeline.
+The font files are availables into the [`node_modules/scoville-font/fonts/`](https://github.com/petaldevelopment/scoville-font/tree/master/fonts) directory, you just need to refer them into your favorite asset pipeline.
 
 ## Configuration
 
@@ -47,7 +47,7 @@ The default font class prefix can be changed through the `sf-css-prefix` variabl
 ```scss
 $sf-css-prefix: 'sf';
 ```
-Please note there's more variables available in the [scss/scoville-font/_settings.scss](https://github.com/petaldevelopment/scoville-font/blob/master/scss/scoville-font/_settings.scss) file.
+Please note there's more variables available in the [`scss/scoville-font/_settings.scss`](https://github.com/petaldevelopment/scoville-font/blob/master/scss/scoville-font/_settings.scss) file.
 
 
 ## Usage

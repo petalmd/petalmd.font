@@ -121,7 +121,7 @@ Leave the rest unchecked.
 
 ### I want to build the font on my computer
 
-Just clone this repository then install dependencies:
+First, clone this repository then install dependencies:
 
 ```sh
 npm install

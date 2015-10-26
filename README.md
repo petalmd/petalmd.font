@@ -52,7 +52,7 @@ Please note there's more variables available in the `scss/scoville-font/_setting
 
 ## Usage
 
-Every icon is registed as a `sf-` prefixed class, so if the targeted icon is named `download` rendering it will look like :
+Every icon is registed as a `sf-` prefixed class, so if the targeted icon is named `download` rendering it will looks like :
 
 ```html
 <i class="sf sf-download"></i>
@@ -102,7 +102,7 @@ Sometimes you may want to render a more complex icon configuration by stacking m
 
 ### I want to add a new icon to the font
 
-Adding a font to the `icons` folder will do the job, icon file must be a `.svg` file.
+Adding a file to the `icons` folder will do the job, the icon file must be a `.svg` file.
 Please note that your file name will be used as a reference for the generated class name.
 
 If you're using Adobe Illustrator, please save your file as SVG with the following settings:

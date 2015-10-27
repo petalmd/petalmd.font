@@ -105,12 +105,16 @@ Icons can also be stacked on each other throught the `sf-stack-*` classes:
 
 ### Flipped icons
 
+What's an icon font without the flip feature ?
+
 ```html
 <i class="sf sf-download sf-flip-vertical"></i>
 <i class="sf sf-download sf-flip-horizontal"></i>
 ```
 
 ### Rotated icons
+
+You can easily rotate any icons by using `sf-rotate-*` classes:
 
 ```html
 <i class="sf sf-download sf-rotate-90"></i>

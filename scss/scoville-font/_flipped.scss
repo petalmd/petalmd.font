@@ -1,0 +1,12 @@
+.#{$sf-css-prefix}-flip-horizontal {
+  transform: scale(-1, 1);
+}
+
+.#{$sf-css-prefix}-flip-vertical  {
+  transform: scale(1, -1);
+}
+
+:root .#{$sf-css-prefix}-flip-horizontal,
+:root .#{$sf-css-prefix}-flip-vertical {
+  filter: none;
+}

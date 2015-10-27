@@ -34,6 +34,8 @@ By default the scss file is providing the entire toolkit, If you want a granular
 @import 'scoville-font/mixins';
 @import 'scoville-font/larger';
 @import 'scoville-font/stacked';
+@import 'scoville-font/flipped';
+@import 'scoville-font/rotated';
 ```
 
 ### .eot, .ttf, .woff and .woff2 fonts
@@ -85,17 +87,35 @@ Larger version of icons can be rendered using `sf-2x`, `sf-3x`, `sf-4x` and `sf-
 
 ```html
 <i class="sf sf-download sf-2x"></i>
+<i class="sf sf-download sf-3x"></i>
+<i class="sf sf-download sf-4x"></i>
+<i class="sf sf-download sf-5x"></i>
 ```
 
 ### Stacked icons
 
-Sometimes you may want to render a more complex icon configuration by stacking more than one icon:
+Icons can also be stacked on each other throught the `sf-stack-*` classes:
 
 ```html
 <span class="sf-stack sf-lg">
   <i class="sf sf-first-icon sf-stack-2x"></i>
   <i class="sf sf-second-icon sf-stack-1x"></i>
 </span>
+```
+
+### Flipped icons
+
+```html
+<i class="sf sf-download sf-flip-vertical"></i>
+<i class="sf sf-download sf-flip-horizontal"></i>
+```
+
+### Rotated icons
+
+```html
+<i class="sf sf-download sf-rotate-90"></i>
+<i class="sf sf-download sf-rotate-180"></i>
+<i class="sf sf-download sf-rotate-270"></i>
 ```
 
 ## Hacking on the font
@@ -133,7 +153,7 @@ You must also install `ttfautohint`:
 brew install ttfautohint
 ```
 
-This project is extensively using `gulp` for generating the font, let's run it:
+This project is extensively using `gulp` for generating the font, let's install & run it:
 
 ```sh
 npm install -g gulp
@@ -144,3 +164,11 @@ gulp
 ```
 
 That's it, have fun!
+
+## License
+
+This project is UNLICENSED yet.
+
+## Collaboration
+
+Everyone is welcome to collaborate.

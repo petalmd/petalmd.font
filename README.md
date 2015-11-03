@@ -137,7 +137,7 @@ If you're using Adobe Illustrator, please save your file as SVG with the followi
 - Options Image Location: Embed
 - Advanced Options
   - CSS Properties: Presentation Attributes
-  - Decimal Places: 1
+  - Decimal Places: 2
   - Encoding: UTF-8
   - Output fewer <tspan> elements: check
 

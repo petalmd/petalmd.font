@@ -12,7 +12,7 @@
   font-style: normal;
 }
 
-.#{$sf-css-prefix} {
+.icon {
   color: inherit;
   display: inline-block;
   font: normal normal normal normal #{$sf-font-size-base}/#{$sf-line-height-base} '#{$sf-font-name}';
@@ -34,7 +34,7 @@
 }
 
 @each $name, $codepoint in $glyphs {
-  .#{$sf-css-prefix}-#{$name}:before {
+  .-#{$name}:before {
     content: $codepoint;
   }
 }

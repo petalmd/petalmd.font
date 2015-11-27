@@ -44,29 +44,23 @@ The font files are availables into the [`node_modules/scoville-font/fonts/`](htt
 
 ## Configuration
 
-The default font class prefix can be changed through the `sf-css-prefix` variable:
-
-```scss
-$sf-css-prefix: 'sf';
-```
-Please note there's more variables available in the [`scss/scoville-font/_settings.scss`](https://github.com/petaldevelopment/scoville-font/blob/master/scss/scoville-font/_settings.scss) file.
-
+Please look at [`scss/scoville-font/_settings.scss`](https://github.com/petaldevelopment/scoville-font/blob/master/scss/scoville-font/_settings.scss) file.
 
 ## Usage
 
-Every icon is registed as a `sf-` prefixed class, so if the targeted icon is named `download` rendering it will looks like :
+Every icon is registed as a mod class, so if the targeted icon is named `download` rendering it will looks like :
 
 ```html
-<i class="sf sf-download"></i>
+<i class="icon -download"></i>
 ```
 ### Mixins & functions
 
-The same goal can be achieved by using the `sf-icon` mixin:
+The same goal can be achieved by using the `icon` mixin:
 
 ```scss
 a.download {
   i {
-    @include sf-icon('download');
+    @include icon('download');
   }
 }
 ```
@@ -83,23 +77,23 @@ span {
 
 ### Larger icons
 
-Larger version of icons can be rendered using `sf-2x`, `sf-3x`, `sf-4x` and `sf-5x` classes:
+Larger version of icons can be rendered using `-2x`, `-3x`, `-4x` and `-5x` classes:
 
 ```html
-<i class="sf sf-download sf-2x"></i>
-<i class="sf sf-download sf-3x"></i>
-<i class="sf sf-download sf-4x"></i>
-<i class="sf sf-download sf-5x"></i>
+<i class="icon -download -2x"></i>
+<i class="icon -download -3x"></i>
+<i class="icon -download -4x"></i>
+<i class="icon -download -5x"></i>
 ```
 
 ### Stacked icons
 
-Icons can also be stacked on each other throught the `sf-stack-*` classes:
+Icons can also be stacked on each other throught the `stack` and `-stack-*` classes:
 
 ```html
-<span class="sf-stack sf-lg">
-  <i class="sf sf-first-icon sf-stack-2x"></i>
-  <i class="sf sf-second-icon sf-stack-1x"></i>
+<span class="stack -lg">
+  <i class="icon -first-icon -stack-2x"></i>
+  <i class="icon -second-icon -stack-1x"></i>
 </span>
 ```
 
@@ -108,18 +102,18 @@ Icons can also be stacked on each other throught the `sf-stack-*` classes:
 What's an icon font without the flip feature ?
 
 ```html
-<i class="sf sf-download sf-flip-vertical"></i>
-<i class="sf sf-download sf-flip-horizontal"></i>
+<i class="icon -download -flip-vertical"></i>
+<i class="icon -download -flip-horizontal"></i>
 ```
 
 ### Rotated icons
 
-You can easily rotate any icons by using `sf-rotate-*` classes:
+You can easily rotate any icons by using `-rotate-*` classes:
 
 ```html
-<i class="sf sf-download sf-rotate-90"></i>
-<i class="sf sf-download sf-rotate-180"></i>
-<i class="sf sf-download sf-rotate-270"></i>
+<i class="icon -download -rotate-90"></i>
+<i class="icon -download -rotate-180"></i>
+<i class="icon -download -rotate-270"></i>
 ```
 
 ## Hacking on the font

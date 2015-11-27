@@ -1,4 +1,4 @@
-.#{$sf-css-prefix}-stack {
+.stack {
   position: relative;
   display: inline-block;
   width: 2em;
@@ -7,17 +7,17 @@
   vertical-align: middle;
 }
 
-.#{$sf-css-prefix}-stack-1x, .#{$sf-css-prefix}-stack-2x {
+.-stack-1x, .-stack-2x {
   position: absolute;
   left: 0;
   width: 100%;
   text-align: center;
 }
 
-.#{$sf-css-prefix}-stack-1x {
+.-stack-1x {
   line-height: inherit;
 }
 
-.#{$sf-css-prefix}-stack-2x {
+.-stack-2x {
   font-size: 2em;
 }

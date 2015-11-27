@@ -1,4 +1,4 @@
-@mixin sf-icon($name) {
+@mixin icon($name) {
   color: inherit;
   display: inline-block;
   font: normal normal normal normal #{$sf-font-size-base}/#{$sf-line-height-base} '#{$sf-font-name}';

@@ -1,17 +1,17 @@
-.#{$sf-css-prefix}-rotate-90 {
+.-rotate-90 {
   transform: rotate(90deg);
 }
 
-.#{$sf-css-prefix}-rotate-180 {
+.-rotate-180 {
   transform: rotate(180deg);
 }
 
-.#{$sf-css-prefix}-rotate-270 {
+.-rotate-270 {
   transform: rotate(270deg);
 }
 
-:root .#{$sf-css-prefix}-rotate-90,
-:root .#{$sf-css-prefix}-rotate-180,
-:root .#{$sf-css-prefix}-rotate-270 {
+:root .-rotate-90,
+:root .-rotate-180,
+:root .-rotate-270 {
   filter: none;
 }

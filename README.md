@@ -77,13 +77,13 @@ span {
 
 ### Larger icons
 
-Larger version of icons can be rendered using `-2x`, `-3x`, `-4x` and `-5x` classes:
+Larger version of icons can be rendered using `-large-2x`, `-large-3x`, `-large-4x` and `-large-5x` classes:
 
 ```html
-<i class="icon -download -2x"></i>
-<i class="icon -download -3x"></i>
-<i class="icon -download -4x"></i>
-<i class="icon -download -5x"></i>
+<i class="icon -download -large-2x"></i>
+<i class="icon -download -large-3x"></i>
+<i class="icon -download -large-4x"></i>
+<i class="icon -download -large-5x"></i>
 ```
 
 ### Stacked icons

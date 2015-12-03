@@ -8,11 +8,12 @@ gulp.task 'font', ->
     .pipe iconfont
       fontName: 'scoville'
       appendUnicode: true
-      normalize: false
-      fontHeight: 100
+      normalize: true
+      fontHeight: 500
       formats: ['ttf', 'eot', 'woff', 'woff2']
       autohint: true
       timestamp: Math.round(Date.now() / 1000)
+      round: 10e1
     .on 'glyphs', (glyphs) ->
       options =
         glyphs: glyphs.map (glyph) ->

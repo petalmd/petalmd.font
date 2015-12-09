@@ -15,7 +15,6 @@
 @mixin icon() {
   color: inherit;
   display: inline-block;
-  font-family: 'scoville';
   font-style: normal;
   font-variant: normal;
   font-weight: normal;
@@ -27,6 +26,11 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   speak: none;
+
+  &::before,
+  &::after {
+    font-family: 'scoville';
+  }
 }
 
 .icon {

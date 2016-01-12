@@ -5,7 +5,7 @@
   "author": "PetalMD <development@petalmd.com>",
   "license": "UNLICENSED",
   "private": true,
-  "dependencies": {
+  "devDependencies": {
     "coffee-script": "^1.10.0",
     "lodash": "^3.10.1",
     "gulp": "^3.9.0",

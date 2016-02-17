@@ -58,17 +58,9 @@ Every icon is registed as a mod class, so if the targeted icon is named `downloa
 The same goal can be achieved by using the `icon` mixin:
 
 ```scss
-a.download {
-  i {
-    @include icon('download');
-  }
-}
-```
+a.download + i {
+  @include icon;
 
-And if you just want to obtain the glyph codepoint, well... there's a function for that:
-
-```scss
-span {
   &:before {
     content: glyph('download');
   }
@@ -165,8 +157,5 @@ That's it, have fun!
 
 ## License
 
-This project is UNLICENSED yet.
+Apache 2 license for code and assets, please see [LICENSE](https://github.com/petalmd/scoville-font/blob/master/LICENSE) file.
 
-## Collaboration
-
-Everyone is welcome to collaborate.

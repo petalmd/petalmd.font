@@ -7,7 +7,7 @@ gulp.task 'font', ->
     .src 'icons/*.svg'
     .pipe iconfont
       fontName: 'scoville'
-      appendUnicode: true
+      prependUnicode: true
       normalize: true
       fontHeight: 500
       formats: ['ttf', 'eot', 'woff', 'woff2']

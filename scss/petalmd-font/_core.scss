@@ -1,5 +1,5 @@
 @import 'settings';
-@import 'icons';
+@import 'glyphs';
 
 @font-face {
   font-family: '#{$pf-font-name}';
@@ -34,7 +34,7 @@
   }
 }
 
-.icon {
+.glyph {
   @include icon-element;
 }
 

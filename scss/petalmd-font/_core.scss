@@ -1,0 +1,54 @@
+@import 'settings';
+@import 'glyphs';
+
+@font-face {
+  font-family: '#{$pf-font-name}';
+  src: url('#{$pf-font-path}/#{$pf-font-name}.eot');
+  src: url('#{$pf-font-path}/#{$pf-font-name}.eot?#iefix') format('embedded-opentype'),
+    url('#{$pf-font-path}/#{$pf-font-name}.woff2') format('woff2'),
+    url('#{$pf-font-path}/#{$pf-font-name}.woff') format('woff'),
+    url('#{$pf-font-path}/#{$pf-font-name}.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@mixin icon-element() {
+  display: inline-block;
+
+  &::before,
+  &::after {
+    color: inherit;
+    display: inline-block;
+    font-family: 'petalmd';
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: $pf-line-height-base;
+    font-size: $pf-font-size-base;
+    font-size: inherit;
+    text-transform: none;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    speak: none;
+  }
+}
+
+.icon {
+  @include icon-element;
+}
+
+@function glyph($name) {
+  @if map-has-key($glyphs, $name) {
+    @return map-get($glyphs, $name);
+  }
+
+  @warn "Glyph '#{$name}' cannot be found.";
+  @return null;
+}
+
+@each $name, $codepoint in $glyphs {
+  .-#{$name}:before {
+    content: $codepoint;
+  }
+}

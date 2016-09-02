@@ -1,0 +1,12 @@
+.-flip-horizontal {
+  transform: scale(-1, 1);
+}
+
+.-flip-vertical  {
+  transform: scale(1, -1);
+}
+
+:root .-flip-horizontal,
+:root .-flip-vertical {
+  filter: none;
+}

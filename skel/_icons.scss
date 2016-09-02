@@ -1,0 +1,5 @@
+$icons: (
+<%= icons.map(function(icon) {
+  return '  ' + icon.name + ": '\\" + icon.codepoint.toString(16).toUpperCase() + "'";
+}).join(',\n') %>
+);

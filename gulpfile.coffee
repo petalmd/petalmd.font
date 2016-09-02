@@ -14,10 +14,10 @@ gulp.task 'font', ->
       autohint: true
       timestamp: Math.round(Date.now() / 1000)
       round: 10e1
-    .on 'glyphs', (glyphs) ->
+    .on 'icons', (icons) ->
       options =
-        glyphs: glyphs.map (glyph) ->
-          name: glyph.name, codepoint: glyph.unicode[0].charCodeAt(0)
+        icons: icons.map (icon) ->
+          name: icon.name, codepoint: icon.unicode[0].charCodeAt(0)
       gulp
         .src 'skel/*.scss'
         .pipe consolidate 'lodash', options

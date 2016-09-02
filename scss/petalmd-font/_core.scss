@@ -1,5 +1,5 @@
 @import 'settings';
-@import 'glyphs';
+@import 'icons';
 
 @font-face {
   font-family: '#{$pf-font-name}';
@@ -38,16 +38,16 @@
   @include icon-element;
 }
 
-@function glyph($name) {
-  @if map-has-key($glyphs, $name) {
-    @return map-get($glyphs, $name);
+@function icon($name) {
+  @if map-has-key($icons, $name) {
+    @return map-get($icons, $name);
   }
 
-  @warn "Glyph '#{$name}' cannot be found.";
+  @warn "icon '#{$name}' cannot be found.";
   @return null;
 }
 
-@each $name, $codepoint in $glyphs {
+@each $name, $codepoint in $icons {
   .-#{$name}:before {
     content: $codepoint;
   }

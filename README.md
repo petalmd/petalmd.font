@@ -59,7 +59,7 @@ a.download + i {
   @include icon;
 
   &:before {
-    content: glyph('download');
+    content: icon('download');
   }
 }
 ```

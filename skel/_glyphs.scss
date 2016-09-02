@@ -1,5 +1,0 @@
-$glyphs: (
-<%= glyphs.map(function(glyph) {
-  return '  ' + glyph.name + ": '\\" + glyph.codepoint.toString(16).toUpperCase() + "'";
-}).join(',\n') %>
-);

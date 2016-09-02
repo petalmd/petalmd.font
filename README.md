@@ -1,7 +1,4 @@
-<p align="center">
-  <img height="30%" width="30%" src="http://i.imgur.com/qwuHMDB.png" alt="scoville"/>
-</p>
----
+# petalmd.font
 
 This is a scss-powered icon font for our beloved [Scoville](https://petalmd.com) application, it has been designed to reduce the pain of rendering vector-based icons by using simple html classes, scss functions and mixins.
 
@@ -10,7 +7,7 @@ This is a scss-powered icon font for our beloved [Scoville](https://petalmd.com)
 Add this to line to your `package.json` file:
 
 ```json
-"scoville-font": "https://github.com/petaldevelopment/scoville-font.git#master"
+"petalmd.font": "https://github.com/petalmd/petalmd.font.git#master"
 ```
 
 ### scss
@@ -18,33 +15,33 @@ Add this to line to your `package.json` file:
 If you're using `libsass` you may want to include the font scss using the `includePaths` option:
 
 ```javascript
-includePaths: ['node_modules/scoville-font/scss/']
+includePaths: ['node_modules/petalmd.font/scss/']
 ```
 
 Finally you can load the font styles into your scss tree:
 
 ```scss
-@import 'scoville-font';
+@import 'petalmd.font';
 ```
 
 By default the scss file is providing the entire toolkit, If you want a granular control on the imports, no problem, you can still include them on a per-feature basis:
 
 ```scss
-@import 'scoville-font/core';
-@import 'scoville-font/mixins';
-@import 'scoville-font/larger';
-@import 'scoville-font/stacked';
-@import 'scoville-font/flipped';
-@import 'scoville-font/rotated';
+@import 'petalmd.font/core';
+@import 'petalmd.font/mixins';
+@import 'petalmd.font/larger';
+@import 'petalmd.font/stacked';
+@import 'petalmd.font/flipped';
+@import 'petalmd.font/rotated';
 ```
 
 ### .eot, .ttf, .woff and .woff2 fonts
 
-The font files are availables into the [`node_modules/scoville-font/fonts/`](https://github.com/petaldevelopment/scoville-font/tree/master/fonts) directory, you just need to refer them into your favorite asset pipeline.
+The font files are availables into the [`node_modules/petalmd.font/fonts/`](https://github.com/petaldevelopment/petalmd.font/tree/master/fonts) directory, you just need to refer them into your favorite asset pipeline.
 
 ## Configuration
 
-Please look at [`scss/scoville-font/_settings.scss`](https://github.com/petaldevelopment/scoville-font/blob/master/scss/scoville-font/_settings.scss) file.
+Please look at [`scss/petalmd.font/_settings.scss`](https://github.com/petaldevelopment/petalmd.font/blob/master/scss/petalmd.font/_settings.scss) file.
 
 ## Usage
 
@@ -157,5 +154,5 @@ That's it, have fun!
 
 ## License
 
-Apache 2 license for code and assets, please see [LICENSE](https://github.com/petalmd/scoville-font/blob/master/LICENSE) file.
+Apache 2 license for code and assets, please see [LICENSE](https://github.com/petalmd/petalmd.font/blob/master/LICENSE) file.
 

@@ -1,7 +1,7 @@
 {
-  "name": "scoville-font",
-  "version": "0.5.45",
-  "description": "Scoville' font toolkit.",
+  "name": "petalmd.font",
+  "version": "1.0.0",
+  "description": "PetalMD font toolkit.",
   "author": "PetalMD <development@petalmd.com>",
   "license": "UNLICENSED",
   "private": true,

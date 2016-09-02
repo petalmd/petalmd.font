@@ -6,7 +6,7 @@ gulp.task 'font', ->
   gulp
     .src 'icons/*.svg'
     .pipe iconfont
-      fontName: 'scoville'
+      fontName: 'petalmd'
       prependUnicode: true
       normalize: true
       fontHeight: 500
@@ -21,7 +21,7 @@ gulp.task 'font', ->
       gulp
         .src 'skel/*.scss'
         .pipe consolidate 'lodash', options
-        .pipe gulp.dest 'scss/scoville-font'
+        .pipe gulp.dest 'scss/petalmd-font'
     .pipe gulp.dest 'fonts'
 
 gulp.task 'default', ['font']

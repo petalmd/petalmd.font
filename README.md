@@ -1,6 +1,6 @@
 # petalmd.font
 
-This is a scss-powered icon font for our beloved [Scoville](https://petalmd.com) application, it has been designed to reduce the pain of rendering vector-based icons by using simple html classes, scss functions and mixins.
+This is a scss-powered icon font for our beloved [PetalMD](https://petalmd.com) application, it has been designed to reduce the pain of rendering vector-based icons by using simple html classes, scss functions and mixins.
 
 ## Installation
 

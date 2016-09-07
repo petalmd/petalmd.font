@@ -46,9 +46,3 @@
   @warn "icon '#{$name}' cannot be found.";
   @return null;
 }
-
-@each $name, $codepoint in $icons {
-  .-#{$name}:before {
-    content: $codepoint;
-  }
-}

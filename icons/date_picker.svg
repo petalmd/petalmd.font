@@ -1,1 +1,20 @@
-<svg id="Calque_1" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36"><title>A</title><path d="M31,4.06H26.13V3a1,1,0,0,0-2,0V4.06H11.87V3a1,1,0,0,0-2,0V4.06H5a3,3,0,0,0-3,3V31a3,3,0,0,0,3,3H31a3,3,0,0,0,3-3V7.06A3,3,0,0,0,31,4.06ZM32,31a1,1,0,0,1-1,1H5a1,1,0,0,1-1-1V7.06a1,1,0,0,1,1-1H9.87V7a1,1,0,0,0,2,0V6.06H24.13V7a1,1,0,1,0,2,0V6.06H31a1,1,0,0,1,1,1Z"/><rect x="8" y="12" width="3.99" height="4"/><rect x="16.01" y="12" width="3.99" height="4"/><rect x="24.01" y="12" width="3.99" height="4"/><rect x="8" y="18" width="3.99" height="4"/><rect x="16.01" y="18" width="3.99" height="4"/><rect x="24.01" y="18" width="3.99" height="4"/><rect x="8" y="24" width="3.99" height="4"/><rect x="16.01" y="24" width="3.99" height="4"/><rect x="24.01" y="24" width="3.99" height="4"/></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="960px" height="960px" viewBox="480 60 960 960" enable-background="new 480 60 960 960" xml:space="preserve">
+<path d="M1350,121.8h-146.1V90c0-16.6-13.4-30-30-30c-16.6,0-30,13.4-30,30v31.8H776.1V90c0-16.6-13.4-30-30-30
+	c-16.6,0-30,13.4-30,30v31.8H570c-49.7,0-90,40.3-90,90V930c0,49.7,40.3,90,90,90h780c49.7,0,90-40.3,90-90V211.8
+	C1440,162.1,1399.7,121.8,1350,121.8z M1380,930c0,16.6-13.4,30-30,30H570c-16.6,0-30-13.4-30-30V211.8c0-16.6,13.4-30,30-30h146.1
+	V210c0,16.6,13.4,30,30,30c16.6,0,30-13.4,30-30v-28.2h367.8V210c0,16.6,13.4,30,30,30c16.6,0,30-13.4,30-30v-28.2H1350
+	c16.6,0,30,13.4,30,30V930z"/>
+<rect x="660" y="360" width="119.7" height="120"/>
+<rect x="900.3" y="360" width="119.7" height="120"/>
+<rect x="1140.3" y="360" width="119.7" height="120"/>
+<rect x="660" y="540" width="119.7" height="120"/>
+<rect x="900.3" y="540" width="119.7" height="120"/>
+<rect x="1140.3" y="540" width="119.7" height="120"/>
+<rect x="660" y="720" width="119.7" height="120"/>
+<rect x="900.3" y="720" width="119.7" height="120"/>
+<rect x="1140.3" y="720" width="119.7" height="120"/>
+</svg>

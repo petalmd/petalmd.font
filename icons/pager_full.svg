@@ -1,1 +1,11 @@
-<svg id="Calque_1" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36"><defs><style>.cls-1{fill:#231f20;}</style></defs><title>A</title><path class="cls-1" d="M33,7H3A1,1,0,0,0,2,8V28a1,1,0,0,0,1,1H33a1,1,0,0,0,1-1V8A1,1,0,0,0,33,7ZM12,24.5a1,1,0,0,1-1,1H8a1,1,0,0,1-1-1v-1a1,1,0,0,1,1-1h3a1,1,0,0,1,1,1Zm8.5,0a1,1,0,0,1-1,1h-3a1,1,0,0,1-1-1v-1a1,1,0,0,1,1-1h3a1,1,0,0,1,1,1Zm8.5,0a1,1,0,0,1-1,1H25a1,1,0,0,1-1-1v-1a1,1,0,0,1,1-1h3a1,1,0,0,1,1,1Zm0-4.69H7V10.19H29Z"/></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="960px" height="660px" viewBox="480 210 960 660" enable-background="new 480 210 960 660" xml:space="preserve">
+<path d="M1410,210H510c-16.6,0-30,13.4-30,30v600c0,16.6,13.4,30,30,30h900c16.6,0,30-13.4,30-30V240
+	C1440,223.4,1426.6,210,1410,210z M780,735c0,16.6-13.4,30-30,30h-90c-16.6,0-30-13.4-30-30v-30c0-16.6,13.4-30,30-30h90
+	c16.6,0,30,13.4,30,30V735z M1035,735c0,16.6-13.4,30-30,30h-90c-16.6,0-30-13.4-30-30v-30c0-16.6,13.4-30,30-30h90
+	c16.6,0,30,13.4,30,30V735z M1290,735c0,16.6-13.4,30-30,30h-90c-16.6,0-30-13.4-30-30v-30c0-16.6,13.4-30,30-30h90
+	c16.6,0,30,13.4,30,30V735z M1290,594.3H630V305.7h660V594.3z"/>
+</svg>

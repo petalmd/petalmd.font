@@ -1,1 +1,11 @@
-<svg id="Calque_1" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36"><defs><style>.cls-1{fill:none;}.cls-2{fill:#1d1d1b;}</style></defs><title>A</title><path class="cls-1" d="M23.7,9.44a.09.09,0,0,0,.1.09h4.79l-4.89-5Z"/><path class="cls-1" d="M22.7,9.44V4H7.21A.24.24,0,0,0,7,4.25v27.5a.24.24,0,0,0,.21.25H28.79a.23.23,0,0,0,.21-.25V10.53H23.8A1.08,1.08,0,0,1,22.7,9.44Z"/><path class="cls-2" d="M24.08,2H7.21A2.23,2.23,0,0,0,5,4.25v27.5A2.23,2.23,0,0,0,7.21,34H28.79A2.23,2.23,0,0,0,31,31.75V9.15Zm4.52,7.53H23.8a.09.09,0,0,1-.1-.09v-5ZM29,31.75a.23.23,0,0,1-.21.25H7.21A.24.24,0,0,1,7,31.75V4.25A.24.24,0,0,1,7.21,4H22.7V9.44a1.08,1.08,0,0,0,1.1,1.09H29Z"/></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="780px" height="960px" viewBox="570 60 780 960" enable-background="new 570 60 780 960" xml:space="preserve">
+<title>A</title>
+<path d="M636.3,60c-36.9,0.3-66.6,30.5-66.3,67.5c0,0,0,0,0,0v825c-0.3,36.9,29.3,67.2,66.3,67.5c0,0,0,0,0,0h647.4
+	c36.9-0.3,66.6-30.5,66.3-67.5c0,0,0,0,0,0v-678L1142.4,60H636.3z M1283.8,960C1283.7,960,1283.7,960,1283.8,960l-647.5,0
+	c-3.7-0.5-6.5-3.7-6.3-7.5v-825c-0.2-3.8,2.6-7,6.3-7.5H1101v163.2c-0.2,17.9,14.2,32.5,32.1,32.7c0.3,0,0.6,0,0.9,0h156v636.6
+	C1290.3,956.3,1287.5,959.7,1283.8,960z M1134,285.9c-1.5,0.2-2.8-0.9-3-2.4c0-0.1,0-0.2,0-0.3v-150l147,152.7H1134z"/>
+</svg>

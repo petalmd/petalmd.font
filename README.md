@@ -52,11 +52,11 @@ Every icon is registed as a mod class, so if the targeted icon is named `downloa
 ```
 ### Mixins & functions
 
-The same goal can be achieved by using the `icon` mixin:
+The same goal can be achieved by using the `icon-element` mixin:
 
 ```scss
 a.download + i {
-  @include icon;
+  @include icon-element;
 
   &:before {
     content: icon('download');

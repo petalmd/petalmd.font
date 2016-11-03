@@ -4,10 +4,8 @@ This is a scss-powered icon font for our beloved [PetalMD](https://petalmd.com) 
 
 ## Installation
 
-Add this to line to your `package.json` file:
-
-```json
-"petalmd.font": "https://github.com/petalmd/petalmd.font.git#master"
+```
+npm intall petalmd.font
 ```
 
 ### scss

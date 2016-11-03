@@ -3,10 +3,8 @@
   "version": "1.0.0",
   "description": "PetalMD font toolkit.",
   "author": "PetalMD <development@petalmd.com>",
-  "license": "UNLICENSED",
-  "private": true,
+  "license": "Apache 2.0",
   "devDependencies": {
-    "coffee-script": "^1.10.0",
     "lodash": "^4.5.0",
     "gulp": "^3.9.1",
     "gulp-iconfont": "^6.0.0",

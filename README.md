@@ -148,6 +148,36 @@ npm install -g gulp
 gulp
 ```
 
+### I want to add a new icon to Petalweb
+
+- First of all, you have to read the previous paragraph and install `gulp` before going further
+- Then, go in `petalmd.font` folder and save your new icons
+- Upgrade the version of the `package.json` file (example: ~~1.0.6~~ -> 1.0.7)
+- Run gulp
+```
+sh gulp
+```
+- Commit and push your new files
+- Tag your commit with the new version number (example: 1.0.7)
+- Go on petalmd.font github repo and click on **Draft a new release**
+- Then, go back on petalmd.font folder
+- Run npm login
+```sh
+npm login
+```
+(Go on Petal documentation repo to find identification information)
+
+- Run npm publish
+```sh
+npm publish
+```
+- Last thing, open the petalmd web app and update the petalmd-font version in `package.json` with the new one. (example: 1.0.7)
+
+- Run yarn
+```sh
+yarn
+```
+
 That's it, have fun!
 
 ## License

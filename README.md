@@ -154,8 +154,8 @@ gulp
 - Then, go in `petalmd.font` folder and save your new icons
 - Upgrade the version of the `package.json` file (example: ~~1.0.6~~ -> 1.0.7)
 - Run gulp
-```
-sh gulp
+```sh 
+gulp
 ```
 - Commit and push your new files
 - Tag your commit with the new version number (example: 1.0.7)

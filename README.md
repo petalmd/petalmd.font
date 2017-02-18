@@ -151,7 +151,7 @@ gulp
 ### I want to add a new icon to Petalweb
 
 - First of all, you have to read the previous paragraph and install `gulp` before going further
-- Then, go in `petalmd.font` folder and save your new icons
+- Then, go in `petalmd.font` folder and copy/past your new icons
 - Upgrade the version of the `package.json` file (example: ~~1.0.6~~ -> 1.0.7)
 - Run gulp
 ```sh 

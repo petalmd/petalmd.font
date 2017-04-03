@@ -10,16 +10,25 @@ npm intall petalmd.font
 
 ### scss
 
-If you're using `libsass` you may want to include the font scss using the `includePaths` option:
-
-```javascript
-includePaths: ['node_modules/petalmd.font/scss/']
-```
-
-Finally you can load the font styles into your scss tree:
+1. Import the font styles into your scss tree:
 
 ```scss
 @import 'petalmd.font';
+```
+
+2. Include the font-face in your application stylesheet:
+
+```scss
+@font-face {
+  font-family: '#{$pf-font-name}';
+  src: url('#{$pf-font-path}/#{$pf-font-name}.eot');
+  src: url('#{$pf-font-path}/#{$pf-font-name}.eot?#iefix') format('embedded-opentype'),
+    url('#{$pf-font-path}/#{$pf-font-name}.woff2') format('woff2'),
+    url('#{$pf-font-path}/#{$pf-font-name}.woff') format('woff'),
+    url('#{$pf-font-path}/#{$pf-font-name}.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 ```
 
 By default the scss file is providing the entire toolkit, If you want a granular control on the imports, no problem, you can still include them on a per-feature basis:
@@ -31,6 +40,12 @@ By default the scss file is providing the entire toolkit, If you want a granular
 @import 'petalmd.font/stacked';
 @import 'petalmd.font/flipped';
 @import 'petalmd.font/rotated';
+```
+
+Note: if you're using `libsass` you may want to include the font scss using the `includePaths` option:
+
+```javascript
+includePaths: ['node_modules/petalmd.font/scss/']
 ```
 
 ### .eot, .ttf, .woff and .woff2 fonts

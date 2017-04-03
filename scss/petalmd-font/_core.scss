@@ -1,17 +1,6 @@
 @import 'settings';
 @import 'glyphs';
 
-@font-face {
-  font-family: '#{$pf-font-name}';
-  src: url('#{$pf-font-path}/#{$pf-font-name}.eot');
-  src: url('#{$pf-font-path}/#{$pf-font-name}.eot?#iefix') format('embedded-opentype'),
-    url('#{$pf-font-path}/#{$pf-font-name}.woff2') format('woff2'),
-    url('#{$pf-font-path}/#{$pf-font-name}.woff') format('woff'),
-    url('#{$pf-font-path}/#{$pf-font-name}.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
 @mixin icon-element() {
   display: inline-block;
 

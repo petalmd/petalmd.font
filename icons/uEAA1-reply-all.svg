@@ -1,14 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="32px" height="22px" viewBox="0 0 32 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
-    <title>reply-all</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="iOS" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Message-(return-to-sender)-iOS" transform="translate(-813.000000, -279.000000)" fill-rule="nonzero" fill="#000000">
-            <g id="Group-2" transform="translate(799.000000, 268.000000)">
-                <path d="M33.7644797,17.1111111 C45.530882,17.1111111 46,33 46,33 C42.062485,25.8958333 38.9939918,25.2159722 33.7644797,25.2159722 L33.7644797,32.2361111 L22.0903629,21.9847222 L33.7644797,11 L33.7644797,17.1111111 Z M14,22 L25.074261,11.6416667 L25.074261,15.9958333 L18.7527037,22 L25.074261,27.1944444 L25.074261,31.6631944 L14,22 Z" id="reply-all"></path>
-            </g>
-        </g>
-    </g>
-</svg>
+<svg width="32" height="22" xmlns="http://www.w3.org/2000/svg"><path d="M19.764 6.111C31.531 6.111 32 22 32 22c-3.938-7.104-7.006-7.784-12.236-7.784v7.02L8.09 10.985 19.764 0v6.111zM0 11L11.074.642v4.354L4.753 11l6.321 5.194v4.47L0 11z" fill-rule="nonzero" fill="#000"/></svg>

@@ -1,11 +1,1 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="960px" height="840px" viewBox="480 120 960 840" enable-background="new 480 120 960 840" xml:space="preserve">
-<title>Plan de travail 1</title>
-<path stroke="#FFFFFF" stroke-miterlimit="10" d="M1014.3,158.4c-9.9-21.7-30.6-36.3-54.3-38.4c-23.7,2.1-44.4,16.8-54.3,38.4
-	L492.9,866.7c-7.9,12.5-12.4,26.9-12.9,41.7c0,30.6,24.9,51.6,67.2,51.6h825.6c42.3,0,67.2-21,67.2-51.6c-0.5-14.8-5-29.2-12.9-41.7
-	L1014.3,158.4z M915,528V360h90v168c2.2,49-5.5,98-22.5,144h-45C920.5,626,912.8,577,915,528z M960,850.5c-33.1,0-60-26.9-60-60
-	s26.9-60,60-60s60,26.9,60,60S993.1,850.5,960,850.5z"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="840" viewBox="480 120 960 840"><path stroke="#FFF" stroke-miterlimit="10" d="M1014.3 158.4A66 66 0 0 0 960 120c-23.7 2.1-44.4 16.8-54.3 38.4L492.9 866.7c-7.9 12.5-12.4 26.9-12.9 41.7 0 30.6 24.9 51.6 67.2 51.6h825.6c42.3 0 67.2-21 67.2-51.6-.5-14.8-5-29.2-12.9-41.7l-412.8-708.3zM915 528V360h90v168c2.2 49-5.5 98-22.5 144h-45c-17-46-24.7-95-22.5-144zm45 322.5c-33.1 0-60-26.9-60-60s26.9-60 60-60 60 26.9 60 60-26.9 60-60 60z"/></svg>

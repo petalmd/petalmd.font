@@ -5,7 +5,7 @@ This is a scss-powered icon font for our beloved [PetalMD](https://petalmd.com) 
 ## Installation
 
 ```
-npm intall petalmd.font
+npm install petalmd.font
 ```
 
 ### scss
@@ -58,11 +58,6 @@ Please look at [`scss/petalmd.font/_settings.scss`](https://github.com/petaldeve
 
 ## Usage
 
-Every icon is registed as a mod class, so if the targeted icon is named `download` rendering it will looks like :
-
-```html
-<i class="icon -download"></i>
-```
 ### Mixins & functions
 
 The same goal can be achieved by using the `icon-element` mixin:
@@ -75,47 +70,6 @@ a.download + i {
     content: icon('download');
   }
 }
-```
-
-### Larger icons
-
-Larger version of icons can be rendered using `-large-2x`, `-large-3x`, `-large-4x` and `-large-5x` classes:
-
-```html
-<i class="icon -download -large-2x"></i>
-<i class="icon -download -large-3x"></i>
-<i class="icon -download -large-4x"></i>
-<i class="icon -download -large-5x"></i>
-```
-
-### Stacked icons
-
-Icons can also be stacked on each other throught the `stack` and `-stack-*` classes:
-
-```html
-<span class="stack -lg">
-  <i class="icon -first-icon -stack-2x"></i>
-  <i class="icon -second-icon -stack-1x"></i>
-</span>
-```
-
-### Flipped icons
-
-What's an icon font without the flip feature ?
-
-```html
-<i class="icon -download -flip-vertical"></i>
-<i class="icon -download -flip-horizontal"></i>
-```
-
-### Rotated icons
-
-You can easily rotate any icons by using `-rotate-*` classes:
-
-```html
-<i class="icon -download -rotate-90"></i>
-<i class="icon -download -rotate-180"></i>
-<i class="icon -download -rotate-270"></i>
 ```
 
 ## Hacking on the font
@@ -147,10 +101,16 @@ First, clone this repository then install dependencies:
 npm install
 ```
 
-You must also install `ttfautohint`:
+You must also install `ttfautohint@1.5`:
 
 ```sh
 brew install ttfautohint
+```
+
+Then download version 1.5 from [here](https://s3.amazonaws.com/petalmd.jenkins-ios/ttfautohint.zip). Place the `1.5` folder in your ttfautohint folder and run :
+
+```sh
+brew switch ttfautohint 1.5
 ```
 
 This project is extensively using `gulp` for generating the font, let's install & run it:
@@ -166,21 +126,22 @@ gulp
 ### I want to add a new icon to Petalweb
 
 - First of all, you have to read the previous paragraph and install `gulp` before going further
-- Then, go in `petalmd.font` folder and copy/past your new icons
+- Then, go in `petalmd.font/icons` folder and copy/paste your new icons
 - Upgrade the version of the `package.json` file (example: ~~1.0.6~~ -> 1.0.7)
-- Run gulp
-```sh 
-gulp
+- Run the svgo task to optimize your new icons
+```sh
+gulp svgo
+```
+- Run the font task
+```sh
+gulp font
 ```
 - Commit and push your new files
-- Tag your commit with the new version number (example: 1.0.7)
-- Go on petalmd.font github repo and click on **Draft a new release**
-- Then, go back on petalmd.font folder
 - Run npm login
 ```sh
 npm login
 ```
-(Go on Petal documentation repo to find identification information)
+(Visit the Petal documentation repo to find identification information)
 
 - Run npm publish
 ```sh

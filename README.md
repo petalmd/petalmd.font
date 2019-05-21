@@ -149,10 +149,6 @@ npm publish
 ```
 - Last thing, open the petalmd web app and update the petalmd-font version in `package.json` with the new one. (example: 1.0.7)
 
-- Run yarn
-```sh
-yarn
-```
 
 That's it, have fun!
 

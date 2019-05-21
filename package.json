@@ -5,13 +5,11 @@
   "author": "PetalMD <development@petalmd.com>",
   "license": "Apache-2.0",
   "devDependencies": {
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
     "gulp-consolidate": "^0.1.2",
-    "gulp-iconfont": "^6.0.0",
+    "gulp-iconfont": "^10.0.2",
     "gulp-svgo": "^1.5.4",
     "lodash": "^4.5.0"
   },
-  "dependencies": {
-    "npm": "^6.0.1"
-  }
+  "dependencies": {}
 }

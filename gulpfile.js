@@ -39,4 +39,4 @@ gulp.task('svgo', function() {
       .pipe(gulp.dest('icons'));
 });
 
-gulp.task('default', ['font']);
+gulp.task('default', gulp.series('font'));

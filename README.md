@@ -127,6 +127,7 @@ gulp
 
 - First of all, you have to read the previous paragraph and install `gulp` before going further
 - Then, go in `petalmd.font/icons` folder and copy/paste your new icons
+- Add your new icons in `/scss/petalmd-font/_glyphs.scss`
 - Upgrade the version of the `package.json` file (example: ~~1.0.6~~ -> 1.0.7)
 - Run the svgo task to optimize your new icons
 ```sh
